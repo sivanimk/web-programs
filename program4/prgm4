@@ -1,0 +1,148 @@
+<html>
+<head>
+<title>Registration form</title>
+<style>
+body{
+background-color:lightblue;
+width:700px;
+margin:auto;
+}
+td{
+padding:10px;
+}
+form{background-color:dodgerblue;
+}
+</style>
+</head>
+<body class="form">
+<h2 align="center">registration form</h2>
+<form>
+<table>
+<tr>
+<td>full name</td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>mobile number</td>
+<td><input type="number"></td>
+</tr>
+<tr>
+<td>email id</td>
+<td><input type="email"></td>
+</tr>
+<tr>
+<td>age</td>
+<td><input type="number"></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio"name="gender">male
+<input type="radio"name="gender">female
+<input type="radio"name="gender">others
+</td>
+</tr>
+<tr>
+<td>date of birth</td>
+<td><input type="date"></td>
+</tr>
+<tr>
+<td>address</td>
+<td><textarea rows="7"cols="30"></textarea></td>
+</tr>
+<tr>
+<td>current study</td>
+<td><select>
+<option>B.tech</option>
+<option>MCA</option>
+<option>Bsc</option>
+<option>M.tech</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>Department</td>
+<td>
+<select>
+<option>cs</option>
+<option>ec</option>
+<option>eee</option>
+<option>me</option>
+</select>
+</td></tr>
+<tr>
+<td>upload cv</td>
+<td><input type="file"></td></tr>
+<tr>
+<td>programming language</td>
+<td><input type="checkbox">HTML
+<input type="checkbox">read js
+<input type="checkbox">css
+<input type="checkbox">flutter</td></tr>
+<tr><td>language</td>
+</td>
+</tr>
+<tr>
+<td>language</td>
+<td>
+<input type="checkbox">english
+<input type="checkbox">malayalam
+<input type="checkbox">arabic
+<input type="checkbox">hindi
+</td>
+</tr>
+<tr>
+<td>
+<input type="submit"value="submit">
+</td>
+<td>
+<input type="button"value="reset">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
